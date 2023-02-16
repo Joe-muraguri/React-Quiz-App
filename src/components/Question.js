@@ -76,7 +76,8 @@ const Question = () => {
                 <div className="container">
                     <h1>Question <span className="zero">{addingZero(currentQuestion + 1)}</span> <span className="zero2">/{addingZero(questions.length)}</span></h1>
                     <hr/>
-                    <h5>Test your brains without googling the answers <i class="fa-solid fa-face-awesome yellow"></i> <i class="fa-light fa-face-smile yellow"></i></h5>
+                    <h5>Test your brains without googling the answers  <i class="fa-solid fa-face-smile yellow"></i> <i class="fa-solid fa-face-grin-tongue-squint yellow"></i></h5>
+                    
                     <h2>{questions[currentQuestion].question}</h2>
                     {choices.map((answer, index) => (
                         <div className="list-container">
