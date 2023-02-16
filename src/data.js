@@ -102,7 +102,7 @@ export const quiz = {
       correctAnswer: 'London',
     },
     {
-      question: 'Which one of these regions is not located in Nakuru Countr?',
+      question: 'Which one of these regions is not located in Nakuru County?',
       choices: ['Kivumbini', 'Lanet', 'Flamingo', 'Miritini'],
       type: 'MCQs',
       correctAnswer: 'Miritini',
